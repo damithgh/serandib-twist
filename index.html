@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  /* --- 1. THE BANNER (Carousel) --- */
+  /* This makes the image zoom in slowly */
+  .carousel-item img {
+    transition: transform 6s ease-in-out !important;
+  }
+  .carousel-item.active img {
+    transform: scale(1.15);
+  }
+  /* This makes the fade between slides very slow */
+  .carousel-fade .carousel-item {
+    transition-duration: 2.0s !important;
+  }
+
+  /* --- 2. THE SHOP MENU (Dropdown) --- */
+  /* This prepares the menu to be invisible and lower down */
+  .navbar-nav .dropdown-menu {
+    display: block !important; 
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(15px);
+    transition: all 0.5s ease-in-out; 
+    border: none;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+  }
+
+  /* MAGIC PART: This opens the menu when your MOUSE touches 'Shop' */
+  .nav-item.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+</style>
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#6f4e37;">
+  <div class="container-fluid">
+
+    
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" alt="Logo" height="180">
+    </a>
+
+    
+    <button class="navbar-toggler" type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      
+      <ul class="navbar-nav mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            Shop
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="srilankanspices.html">Sri Lankan Spices</a></li>
+            <li><a class="dropdown-item" href="cupcakes.html">Cupcakes</a></li>
+            <li><a class="dropdown-item" href="coffee.html">Coffee & Beverages</a></li>
+            <li><a class="dropdown-item" href="tea.html">Tea</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="bestsellers.html">Best Sellers</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="ourstory.html">Our Story</a>
+        </li>
+
+      </ul>
+
+      
+      <form class="d-flex ms-auto">
+        <input class="form-control me-2" type="search" placeholder="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+
+    </div>
+  </div>
+</nav>
+<!-- BANNER SECTION -->
+<div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+  
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    
+    <div class="carousel-item active" data-bs-interval="6000">
+      <img src="images/banner.jpg" class="d-block w-100" style="height: 529px; width: 1600px; object-fit: cover;" alt="Sri Lankan Spices">
+      <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.5); border-radius: 15px; padding: 20px;">
+        <h2 class="display-4 fw-bold">Authentic Spices</h2>
+        <p class="lead">Freshly sourced from the heart of Sri Lanka.</p>
+        <a href="srilankanspices.html" class="btn btn-warning">Shop Now</a>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="images/coffee-banner.jpg" class="d-block w-100" style="height: 529px; width: 1600px; object-fit: cover;" alt="Fresh Coffee">
+      <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.5); border-radius: 15px; padding: 20px;">
+        <h2 class="display-4 fw-bold">Premium Coffee</h2>
+        <p class="lead">Roasted to perfection for your morning cup.</p>
+        <a href="coffee.html" class="btn btn-light">View Blends</a>
+      </div>
+    </div>
+
+    <div class="carousel-item" data-bs-interval="6000">
+      <img src="images/cupcake-banner.jpg" class="d-block w-100" style="height: 529px; width: 1600px; object-fit: cover;" alt="Cupcakes">
+      <div class="carousel-caption d-none d-md-block" style="background: rgba(0,0,0,0.5); border-radius: 15px; padding: 20px;">
+        <h2 class="display-4 fw-bold">Sweet Moments</h2>
+        <p class="lead">Handcrafted treats for every celebration.</p>
+        <a href="cupcakes.html" class="btn btn-info text-white">Browse Sweets</a>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<section class="py-5">
+  <div class="container text-center">
+    <h2 class="mb-4">Shop by Category</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/coffee.jpg" class="card-img-top" alt="Coffee">
+          <div class="card-body">
+            <h5 class="card-title">Coffee</h5>
+            <a href="coffee.html" class="btn btn-outline-dark">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/spices.jpg" class="card-img-top" alt="Spices">
+          <div class="card-body">
+            <h5 class="card-title">Sri Lankan Spices</h5>
+            <a href="srilankanspices.html" class="btn btn-outline-dark">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/cupcakes.jpeg" class="card-img-top" alt="Cupcakes">
+          <div class="card-body">
+            <h5 class="card-title">Cupcakes</h5>
+            <a href="cupcakes.html" class="btn btn-outline-dark">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100 shadow-sm">
+          <img src="images/tea.jpg" class="card-img-top" alt="Tea">
+          <div class="card-body">
+            <h5 class="card-title">Tea</h5>
+            <a href="tea.html" class="btn btn-outline-dark">Shop Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- BEST SELLERS -->
+<section class="py-5 bg-light">
+  <div class="container text-center">
+    <h2 class="mb-4">Best Sellers</h2>
+    <div class="row g-4">
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="images/coffee1.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5>House Blend Coffee</h5>
+            <p>$12.99</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="images/cinnamon.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5>Ceylon Cinnamon</h5>
+            <p>$6.99</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="images/cardamom.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5>Cardamom Pods</h5>
+            <p>$8.99</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card h-100">
+          <img src="images/masala.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5>Masala Mix</h5>
+            <p>$5.99</p>
+            <a href="#" class="btn btn-dark">View</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT PREVIEW -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="images/about.jpg" class="img-fluid rounded">
+      </div>
+      <div class="col-md-6">
+        <h2>Our Story</h2>
+        <p>
+          We are a family-run coffee shop and spice hut dedicated to bringing
+          freshly roasted coffee and authentic Sri Lankan spices to your home.
+        </p>
+        <a href="#" class="btn btn-dark">Read More</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="py-5 text-light text-center" style="background-color:#6f4e37;">
+  <div class="container">
+    <h2>Get 10% Off Your First Order</h2>
+    <p>Subscribe for coffee & spice updates</p>
+    <form class="d-flex justify-content-center">
+      <input type="email" class="form-control w-25 me-2" placeholder="Email">
+      <button class="btn btn-light">Subscribe</button>
+    </form>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="py-4 bg-dark text-light text-center">
+  <p class="mb-0">&copy; 2026 serandib twist. All Rights Reserved.</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
