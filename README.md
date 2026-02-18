@@ -19,8 +19,8 @@ In this section, we track the progress of the core functionalities assigned to t
 
 ### Feature 1: Admin Security & Portal
 This feature handles backend security, login logic, and admin session management.
-* **Code:** [GitHub Link](https://github.com/your-repo/login.php)
-* **Live Link:** [shell.hamk.fi/login.php](https://shell.hamk.fi/~user/login.php)
+* **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/admin.php))
+* **Live Link:** [shell.hamk.fi/login.php](https://shell.hamk.fi/~amk1012409/ctwist/admin.php)
 
 ### Feature 2: Product Catalog & Dynamic Display
 Fetches product data dynamically from the database based on categories like Tea, Spices, and Coffee.
@@ -85,5 +85,6 @@ HTML tables used to display structured data on the website.
 1. Import `serandib_twist.sql` into your MySQL database via PHPMyAdmin.
 2. Update `db.php` with your database host, username, and password.
 3. Access the project via `index.php`.
+
 
 *Last Modified: February 2026 | Team No 07*
