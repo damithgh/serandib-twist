@@ -31,7 +31,7 @@ Fetches product data dynamically from the database based on categories like Tea,
 This feature manages the customer purchase journey, from item selection to final order record creation.
 Transfers cart data into the orders and order_details database tables.
 * **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/cart.php)
-* **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~user/cart.php)
+* **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~amk1012409/ctwist/cart.php)
 
 
 ## Database Tables
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
