@@ -14,8 +14,8 @@ Serandib Twist is an e-commerce platform specifically built for Sri Lankan spice
 In this section, we track the progress of the core functionalities assigned to team members.
 
 - [x] **Feature 1 (Damith Kodithuwakku):** Admin Security & Portal Management
-- [x] **Feature 3 (Imalka Siriwardene):** Product Catalog & Category Filtering
-- [x] **Feature 2 (Hasini Manamperi):** Shopping Cart & Order Processing
+- [x] **Feature 2 (Imalka Siriwardene):** Product Catalog & Category Filtering
+- [x] **Feature 3 (Hasini Manamperi):** Shopping Cart & Order Processing
 
 ### Feature 1: Admin Security & Portal
 This feature handles backend security, login logic, and admin session management.
@@ -88,6 +88,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
