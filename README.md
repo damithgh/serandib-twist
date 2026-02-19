@@ -1,4 +1,5 @@
 # Web development project(CA25-2026)Serandib Twist (Team No 07)
+<img width="2752" height="1536" alt="unnamed" src="https://github.com/user-attachments/assets/50e42355-4448-48d5-ba90-ac7b8bfb00cc" />
 
 This documentation covers the development of Serandib Twist, an e-commerce website for traditional Sri Lankan products. A team of three is building the site, focusing on features like secure logins, a digital product catalog, and an order processing system.The website uses a MySQL database with six tables to organize user details, stock, and sales records. Customers can use simple forms to sign up or enter shipping information. There is also an admin section for the team to manage inventory easily.The project is built using PHP, which connects the website design to the database. This guide provides the full technical plan needed to set up, run, and maintain the online store.
 
@@ -93,6 +94,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
