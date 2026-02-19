@@ -25,7 +25,7 @@ This feature handles backend security, login logic, and admin session management
 ### Feature 2: Product Catalog & Dynamic Display
 Fetches product data dynamically from the database based on categories like Tea, Spices, and Coffee.
 * **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/db.php) [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/index.php)
-* **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~user/index.php)
+* **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~amk1012409/ctwist/index.php)
 
 ### Feature 3:Shopping Cart & Order Processing
 This feature manages the customer purchase journey, from item selection to final order record creation.
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
