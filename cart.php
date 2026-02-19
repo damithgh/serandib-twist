@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-// 1. කාර්ට් එකට බඩු එකතු කිරීම
+
 if (isset($_POST['add_to_cart'])) {
     $id = $_POST['product_id'];
     $name = $_POST['product_name'];
@@ -26,7 +26,7 @@ if (isset($_POST['add_to_cart'])) {
     exit();
 }
 
-// 2. බඩු කාර්ට් එකෙන් ඉවත් කිරීම
+
 if (isset($_GET['remove'])) {
     $remove_id = $_GET['remove'];
     if (isset($_SESSION['cart'][$remove_id])) {
@@ -120,4 +120,5 @@ if (isset($_GET['remove'])) {
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
