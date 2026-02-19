@@ -24,7 +24,7 @@ This feature handles backend security, login logic, and admin session management
 
 ### Feature 2: Product Catalog & Dynamic Display
 Fetches product data dynamically from the database based on categories like Tea, Spices, and Coffee.
-* **Code:** [GitHub Link](https://github.com/your-repo/product_details.php)
+* **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/db.php)
 * **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~user/index.php)
 
 
@@ -88,6 +88,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
