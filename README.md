@@ -27,7 +27,7 @@ Fetches product data dynamically from the database based on categories like Tea,
 * **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/db.php) [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/index.php)
 * **Live Link:** [shell.hamk.fi/index.php](https://shell.hamk.fi/~user/index.php)
 
-### Feature 3:
+### Feature 3:Shopping Cart & Order Processing
 This feature manages the customer purchase journey, from item selection to final order record creation.
 Transfers cart data into the orders and order_details database tables.
 **Code: ** 
@@ -91,6 +91,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
