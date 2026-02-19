@@ -19,7 +19,7 @@ In this section, we track the progress of the core functionalities assigned to t
 
 ### Feature 1: Admin Security & Portal
 This feature handles backend security, login logic, and admin session management.
-* **Code:** [GitHub Link-admin.php](https://github.com/damithgh/serandib-twist/blob/main/admin.php) [GitHub Link-logout.php] (https://github.com/damithgh/serandib-twist/blob/main/logout.php)[GitHub Link-script.js] (https://github.com/damithgh/serandib-twist/blob/main/script.js)
+* **Code:** [GitHub Link-admin.php](https://github.com/damithgh/serandib-twist/blob/main/admin.php) [GitHub Link-logout.php](https://github.com/damithgh/serandib-twist/blob/main/logout.php)[GitHub Link-script.js](https://github.com/damithgh/serandib-twist/blob/main/script.js)
 * **Live Link:** [shell.hamk.fi/login.php](https://shell.hamk.fi/~amk1012409/ctwist/admin.php)
 
 ### Feature 2: Product Catalog & Dynamic Display
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
