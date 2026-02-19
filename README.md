@@ -66,7 +66,7 @@ Forms used for user interaction and data submission.
 3. **Checkout/Order Form (Imalka):**
    * **Purpose:** Collects shipping details for order placement.
    * **Validation:** Email format validation, required address and phone fields.
-   * **Links:** [Code](https://github.com/your-repo/checkout.php) | [Live](https://shell.hamk.fi/~user/checkout.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/checkout.php) | [Live](https://shell.hamk.fi/~user/checkout.php)
 
 
 
@@ -79,7 +79,7 @@ HTML tables used to display structured data on the website.
 
 2. **Shopping Cart Table (Imalka):**
    * **Purpose:** Lists items selected by the customer with quantity and sub-total.
-   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/checkout.php) | [Live](https://shell.hamk.fi/~user/cart.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/checkout.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/checkout.php)
 
 3. **Order Summary Table (Hasini):**
    * **Purpose:** Shows final order details before payment confirmation.
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
