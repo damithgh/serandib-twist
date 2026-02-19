@@ -75,7 +75,7 @@ HTML tables used to display structured data on the website.
 
 1. **Product Inventory Table (Damith):**
    * **Purpose:** Displays all products in the Admin Dashboard.
-   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/admin.php) | [Live](https://shell.hamk.fi/~user/admin_products.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/admin.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/admin.php)
 
 2. **Shopping Cart Table (Imalka):**
    * **Purpose:** Lists items selected by the customer with quantity and sub-total.
@@ -83,7 +83,7 @@ HTML tables used to display structured data on the website.
 
 3. **Order Summary Table (Hasini):**
    * **Purpose:** Shows final order details before payment confirmation.
-   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/cart.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/cart.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/cart.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/cart.ph)
 
 
 ## How to Run the Project
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
