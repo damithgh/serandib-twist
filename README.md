@@ -56,7 +56,7 @@ Forms used for user interaction and data submission.
 1. **User/Admin Login Form (Damith):**
    * **Purpose:** To authenticate users and admins.
    * **Validation:** Required fields, session validation, and password verification.
-   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/login.php) | [Live](https://shell.hamk.fi/~user/admin_products.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/login.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/login.php)
 
 2. **Product Add/Edit Form (Hasini):**
    * **Purpose:** Allows admins to add new items to the store.
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
