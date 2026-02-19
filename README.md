@@ -19,7 +19,7 @@ In this section, we track the progress of the core functionalities assigned to t
 
 ### Feature 1: Admin Security & Portal
 This feature handles backend security, login logic, and admin session management.
-* **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/admin.php) [GitHub Link]  (https://github.com/damithgh/serandib-twist/blob/main/logout.php)
+* **Code:** [GitHub Link](https://github.com/damithgh/serandib-twist/blob/main/admin.php) [GitHub Link]  (https://github.com/damithgh/serandib-twist/blob/main/logout.php)[GitHub Link (https://github.com/damithgh/serandib-twist/blob/main/script.js)
 * **Live Link:** [shell.hamk.fi/login.php](https://shell.hamk.fi/~amk1012409/ctwist/admin.php)
 
 ### Feature 2: Product Catalog & Dynamic Display
@@ -79,7 +79,7 @@ HTML tables used to display structured data on the website.
 
 2. **Shopping Cart Table (Imalka):**
    * **Purpose:** Lists items selected by the customer with quantity and sub-total.
-   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/checkout.php) | [Live](https://shell.hamk.fi/~amk1012409/ctwist/checkout.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/checkout.php) GitHub(https://github.com/damithgh/serandib-twist/blob/main/script.js)| [Live](https://shell.hamk.fi/~amk1012409/ctwist/checkout.php)
 
 3. **Order Summary Table (Hasini):**
    * **Purpose:** Shows final order details before payment confirmation.
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
