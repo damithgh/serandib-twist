@@ -75,7 +75,7 @@ HTML tables used to display structured data on the website.
 
 1. **Product Inventory Table (Damith):**
    * **Purpose:** Displays all products in the Admin Dashboard.
-   * **Links:** [Code](https://github.com/your-repo/admin_products.php) | [Live](https://shell.hamk.fi/~user/admin_products.php)
+   * **Links:** [Code](https://github.com/damithgh/serandib-twist/blob/main/admin.php) | [Live](https://shell.hamk.fi/~user/admin_products.php)
 
 2. **Shopping Cart Table (Imalka):**
    * **Purpose:** Lists items selected by the customer with quantity and sub-total.
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
