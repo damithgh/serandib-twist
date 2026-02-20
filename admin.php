@@ -101,7 +101,7 @@ $data3 = mysqli_fetch_assoc($res3);
                     <h4 class="fw-bold mb-3">Order Management</h4>
                     <p class="text-muted">Click the button below to view all customer orders, payment methods, and delivery details.</p>
                     <a href="view_orders.php" class="btn btn-lg btn-primary px-5 fw-bold shadow-sm" style="border-radius: 50px;">
-                        View All Customer Orders 🛒
+                        View All Customer Orders 
                     </a>
                 </div>
             </div>
@@ -185,4 +185,5 @@ $data3 = mysqli_fetch_assoc($res3);
 </body>
 
 </html>
+
 
