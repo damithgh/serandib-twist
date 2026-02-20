@@ -11,7 +11,7 @@
     <style>
         /* Image Style & Hover Zoom */
         .about-img-box {
-            width: 800px; /* පින්තූරය පොඩියට තියාගන්න */
+            width: 800px; 
             margin: 0 auto 30px;
             overflow: hidden;
             border-radius: 10px;
@@ -27,7 +27,7 @@
         
         /* Text alignment and font */
         .content-section {
-            max-width: 800px; /* Text එක දෙපැත්තට විසිරෙන්නේ නැතුව මැදට වෙන්න */
+            max-width: 800px; 
             margin: 0 auto;
             text-align: center;
         }
@@ -116,4 +116,5 @@
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
