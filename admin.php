@@ -61,7 +61,7 @@ $data3 = mysqli_fetch_assoc($res3);
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h2 class="fw-bold text-dark">Admin Product Manager</h2>
         <div>
-            <a href="view_orders.php" class="btn btn-info fw-bold shadow-sm me-2 text-white">View Customer Orders 🛒</a>
+            <a href="view_orders.php" class="btn btn-info fw-bold shadow-sm me-2 text-white">View Customer Orders </a>
             <a href="index.php" class="btn btn-secondary me-2">View Site</a>
             <a href="logout.php" class="btn btn-danger">Logout</a>
         </div>
@@ -185,3 +185,4 @@ $data3 = mysqli_fetch_assoc($res3);
 </body>
 
 </html>
+
