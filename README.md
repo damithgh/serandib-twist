@@ -42,7 +42,7 @@ List of database tables used to store project data.
 | `users` | Imalka | Stores customer registration and profile data. |
 | `admins` | Hasini | Stores admin credentials for management access. |
 | `products` | Damith | Stores item details (name, price, image, description). |
-! `payments` ! Hasini ! Stores transaction details (Amount, Payment Method, Date, Transaction ID).!
+| `payments` | Hasini | Stores transaction details (Amount, Payment Method, Date, Transaction ID).|
 | `categories` | Imalka | To categorize products (Tea, Spices, Coffee, Cupcake). |
 | `orders` | Damith | Records customer transaction history and status.(customer name, email, phone, address, status, order date).|
 
@@ -93,6 +93,7 @@ HTML tables used to display structured data on the website.
 
 
 *Last Modified: February 2026 | Team No 07*
+
 
 
 
