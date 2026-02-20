@@ -10,7 +10,7 @@ if (!isset($_SESSION['loggedin'])) {
 include 'db.php';
 
 // process for adding a new product
-if (isset($_POST['add_product'])) {
+if (isset($_POST['add_product'])) { //does it exist or is it not null
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $price = $_POST['price'];
     $cat = $_POST['category'];
@@ -185,5 +185,6 @@ $data3 = mysqli_fetch_assoc($res3);
 </body>
 
 </html>
+
 
 
