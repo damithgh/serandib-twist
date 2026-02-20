@@ -26,11 +26,11 @@ if (isset($_POST['add_product'])) { //does it exist or is it not null
 }
 
 // process for deleting a product
-if (isset($_GET['delete'])) {
-    $id_to_del = $_GET['delete'];
-    $del_q = "DELETE FROM products WHERE id = $id_to_del";
+if (isset($_GET['delete'])) { // check-is there delete instruction in url
+    $id_to_del = $_GET['delete'];//grab id of delete product
+    $del_q = "DELETE FROM products WHERE id = $id_to_del";// go to the tbln del it
     mysqli_query($conn, $del_q);
-    header("Location: admin.php");
+    header("Location: admin.php");// show update tbl
     exit;
 }
 
@@ -185,6 +185,7 @@ $data3 = mysqli_fetch_assoc($res3);
 </body>
 
 </html>
+
 
 
 
