@@ -2,18 +2,17 @@
 session_start();
 require_once 'db.php'; 
 
-
+//in here checking the correct user entering to the admin pannel
 if(isset($_SESSION['loggedin'])) {
     header("Location: admin.php");
     exit;
 }
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     $user_input = $conn->real_escape_string($_POST['username']);
     $pass_input = $_POST['password'];
 
-    
+    // checking loging credential with database
     
     $sql = "SELECT * FROM admins WHERE username = '$user_input' AND password = '$pass_input'";
     $result = $conn->query($sql);
@@ -97,4 +96,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
