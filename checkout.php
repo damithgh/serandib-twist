@@ -2,50 +2,50 @@
 session_start();
 include 'db.php';
 
-// cart check
+// cart check if the cart is empty recirect to the home
 if (empty($_SESSION['cart'])) {
     header("Location: index.php");
     exit;
 }
-
+//calculate total
 $total_price = 0;
 foreach ($_SESSION['cart'] as $row) {
     $total_price += ($row['price'] * $row['qty']);
 }
-
+//check if the form is sumbited
 if (isset($_POST['place_order'])) {
     
-    // variables naming in a simple way
+    // variables naming in a simple way prevents Sql injectiom
     $name = mysqli_real_escape_string($conn, $_POST['name']);
     $email = mysqli_real_escape_string($conn, $_POST['email']);
     $phone = mysqli_real_escape_string($conn, $_POST['phone']);
     $address = mysqli_real_escape_string($conn, $_POST['address']);
     $pay_method = mysqli_real_escape_string($conn, $_POST['payment_method']);
 
-    // first insert into orders
+    // first insert customer and order information in to tabel
     $sql1 = "INSERT INTO orders (customer_name, email, phone, address, total_amount) 
              VALUES ('$name', '$email', '$phone', '$address', '$total_price')";
-
+//execute ordwer query
     if (mysqli_query($conn, $sql1)) {
         
-        $order_id = mysqli_insert_id($conn); // simple way to get last id
+        $order_id = mysqli_insert_id($conn); // simple way to get lastinsert  orderid
 
-        // then insert into payments
+        // then insert into payments(payment information linked to the order)
         $sql2 = "INSERT INTO payments (order_id, amount, payment_method, status) 
                  VALUES ('$order_id', '$total_price', '$pay_method', 'Success')";
         
         mysqli_query($conn, $sql2);
 
         // email sending
-        $to = $email;
+        $to = $email;//customer email
         $subject = "Order Confirmed - Serandib Twist";
         $msg = "Order ID: #$order_id \nTotal: $total_price \nMethod: $pay_method";
         $headers = "From: sales@serandibtwist.com";
 
-        @mail($to, $subject, $msg, $headers);
+        @mail($to, $subject, $msg, $headers); //send email
 
-        unset($_SESSION['cart']);
-        header("Location: success.php"); 
+        unset($_SESSION['cart']); //remove cart after successfull ordwer
+        header("Location: success.php"); //redirect to success page
         exit;
     } else {
         echo "Error: " . mysqli_error($conn); 
@@ -140,4 +140,5 @@ if (isset($_POST['place_order'])) {
 </div>
 
 </body>
+
 </html>
